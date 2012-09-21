@@ -9,7 +9,6 @@ public class Problem25 {
 		int[] buffer = new int[1];
 		num1[0] = 1;
 		num2[0] = 1;
-		
 		while(flag){
 			index++;
 			for(int i=0; i<num2.length; i++){
