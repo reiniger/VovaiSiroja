@@ -18,8 +18,9 @@ public class Problem25 {
 					num3[i+1] = 1;
 					num3[i] = sum - 10;
 				}
-				else
-					num3[i] = sum;
+				else {
+                                num3[i] = sum;
+                            }
 				
 					
 			}
@@ -36,11 +37,13 @@ public class Problem25 {
 			num3 = buffer;
 			
 			//making num3 blank
-			for(int i=0; i<num3.length; i++)
-				num3[i] = 0;
+			for(int i=0; i<num3.length; i++) {
+                        num3[i] = 0;
+                    }
 			
-			if(num2[999] > 0)
-				flag = false;
+			if(num2[999] > 0) {
+                        flag = false;
+                    }
 		}
 		System.out.println("F" + index + " is 1000th");
 	}

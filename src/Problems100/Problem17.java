@@ -13,7 +13,7 @@ public class Problem17 {
             + "eightteen","nineteen","twenty"};
             String[] bigNumbers=new String[]{"thirty","fourty","fifty"
                     + "sixty","seventy","eighty","ninety","hundred"};
-            String word="";
+            String word=""; 
             int Summ=0;
             for(int i=1;i<=1000;i++)
             {
